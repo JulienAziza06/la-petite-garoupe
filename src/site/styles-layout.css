@@ -2060,3 +2060,104 @@
     background: var(--surface);
   }
 }
+
+.v6-shell .v3-header {
+  background: #ffffff;
+  border-bottom: 1px solid rgba(190, 151, 87, 0.22);
+  box-shadow: none;
+}
+
+.v6-shell .v6-brand-logo {
+  background: var(--primary);
+}
+
+.v6-shell .v3-header__link,
+.v6-shell .v6-header-social,
+.v6-shell .v3-header__actions .v6-reserve__button.v3-button {
+  color: #000000;
+}
+
+.v6-shell .v3-header__link::after,
+.v6-shell .v3-header__menu span {
+  background: #000000;
+}
+
+.v6-shell .v3-header__actions .v6-reserve__button.v3-button {
+  background: #ffffff;
+  border-color: #000000;
+}
+
+.v6-shell .v3-header__actions .v6-reserve__button.v3-button::before {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.v6-shell .v6-header-social:hover {
+  color: #000000;
+}
+
+.v6-shell .v3-mobile-bar {
+  background: #ffffff;
+  border-top: 1px solid rgba(190, 151, 87, 0.22);
+  box-shadow: none;
+}
+
+.v6-shell .v6-mobile-action,
+.v6-shell .v6-mobile-bar__reserve .v6-reserve__button,
+.v6-shell .v6-mobile-bar__directions .v6-directions__button,
+.v6-shell .v6-mobile-bar__social .v6-social__button {
+  color: #000000;
+}
+
+.v6-shell .v6-mobile-action.is-active,
+.v6-shell .v6-mobile-bar__reserve.is-open .v6-reserve__button,
+.v6-shell .v6-mobile-bar__directions.is-open .v6-directions__button,
+.v6-shell .v6-mobile-bar__social.is-open .v6-social__button {
+  color: #000000;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.v6-shell .v6-mobile-nav__panel,
+.v6-shell .v6-mobile-bar__reserve .v6-reserve__menu,
+.v6-shell .v6-mobile-bar__directions .v6-directions__menu,
+.v6-shell .v6-mobile-bar__social .v6-social__menu {
+  background: #ffffff;
+  border: 1px solid rgba(190, 151, 87, 0.22);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.08);
+}
+
+.v6-shell .v6-mobile-nav__link,
+.v6-shell .v3-mobile-bar .v6-reserve__menu a,
+.v6-shell .v3-mobile-bar .v6-directions__menu a,
+.v6-shell .v3-mobile-bar .v6-directions__menu button,
+.v6-shell .v3-mobile-bar .v6-social__menu a {
+  color: #000000;
+}
+
+.v6-shell .v6-mobile-nav__link.is-active,
+.v6-shell .v6-mobile-nav__link:hover {
+  background: rgba(0, 0, 0, 0.06);
+  color: #000000;
+}
+
+@media (min-width: 960px) {
+  .v6-shell .v3-header__actions .v6-reserve.is-open .v6-reserve__button.v3-button {
+    color: #000000;
+    background: #ffffff;
+    border-color: #000000;
+  }
+}
+
+@media (max-width: 959px) {
+  .v6-shell .v3-header {
+    background: #ffffff;
+  }
+
+  .v6-shell .v3-header__menu span {
+    background: #000000;
+  }
+
+  .v6-shell .v3-brand small,
+  .v6-shell .v3-brand strong {
+    color: #000000;
+  }
+}
