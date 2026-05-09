@@ -2343,12 +2343,63 @@
   text-transform: none;
 }
 
+.v6-shell .v3-button,
+.v6-shell .v6-access-button,
+.v6-shell .v6-access-link {
+  font-size: 0.94rem;
+}
+
+.v6-shell .v3-button .v5-icon,
+.v6-shell .v6-access-button .v5-icon,
+.v6-shell .v6-access-link .v5-icon {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
+.v6-shell .v6-reserve__caret,
+.v6-shell .v6-directions__caret {
+  font-size: 0.68rem;
+}
+
 .v6-shell .v6-reserve__menu a,
 .v6-shell .v6-directions__menu a,
 .v6-shell .v6-directions__menu button,
 .v6-shell .v6-social__menu a {
+  font-size: 0.92rem;
   font-weight: 500;
   letter-spacing: 0.01em;
+}
+
+@media (max-width: 900px) {
+  .v6-shell .v3-button,
+  .v6-shell .v6-access-button,
+  .v6-shell .v6-access-link {
+    font-size: 0.88rem;
+  }
+
+  .v6-shell .v6-mobile-action,
+  .v6-shell .v6-mobile-bar__reserve .v6-reserve__button,
+  .v6-shell .v6-mobile-bar__directions .v6-directions__button,
+  .v6-shell .v6-mobile-bar__social .v6-social__button {
+    font-size: 0.72rem;
+  }
+
+  .v6-shell .v6-mobile-action__icon,
+  .v6-shell .v6-mobile-bar__reserve .v5-icon,
+  .v6-shell .v6-mobile-bar__directions .v5-icon,
+  .v6-shell .v6-mobile-bar__social .v5-icon {
+    width: 0.95rem;
+    height: 0.95rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .v6-shell .v6-mobile-action,
+  .v6-shell .v6-mobile-bar__reserve .v6-reserve__button,
+  .v6-shell .v6-mobile-bar__directions .v6-directions__button,
+  .v6-shell .v6-mobile-bar__social .v6-social__button {
+    font-size: 0.7rem;
+  }
 }
 
 .v6-shell .v6-hero-menu-button {
