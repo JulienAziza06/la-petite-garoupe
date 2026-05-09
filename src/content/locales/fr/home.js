@@ -29,7 +29,7 @@ export const homePage = {
   "access": {
     "eyebrow": "Contact & accès",
     "title": "Une adresse simple à rejoindre au coeur du Cap d’Antibes",
-    "text": "La Petite Garoupe se trouve à deux pas de la Place Nationale, avec tous les repères utiles pour préparer votre arrivée sereinement."
+    "text": "La Petite Garoupe se situe sur la plage de la Garoupe, au 991 chemin de la Garoupe, au Cap d’Antibes."
   }
 };
 

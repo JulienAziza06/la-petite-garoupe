@@ -1,40 +1,40 @@
 export const page = {
   "contact": {
     "addressTitle": "Адреса",
-    "addressValue": "Plage de la Garoupe, 06160 Antibes",
+    "addressValue": "991 Chem. de la Garoupe, 06160 Antibes, France",
     "hoursTitle": "Години роботи",
     "hours": [
       {
         "day": "Понеділок",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Вівторок",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Середа",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Четвер",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Пʼятниця",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Субота",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Неділя",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       }
     ],
     "accessTitle": "Як дістатися",
-    "accessText": "Ресторан розташований за кілька кроків від Place Nationale, у самому серці Cap d’Antibes."
+    "accessText": "La Petite Garoupe розташований на пляжі Plage de la Garoupe, за адресою 991 Chemin de la Garoupe, Cap d’Antibes."
   },
   "legal": {
     "eyebrow": "Юридична інформація",

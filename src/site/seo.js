@@ -101,7 +101,7 @@ function buildOpeningHoursSpecification() {
   return hours
     .filter((entry) => entry.hours)
     .map((entry) => {
-      const [opens = '11:00', closes = '22:00'] = entry.hours.split(' - ').map((value) => value.trim());
+      const [opens = '08:00', closes = '00:30'] = entry.hours.split(' - ').map((value) => value.trim());
       return {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: `https://schema.org/${dayCodeByFrenchDay[entry.day] ?? 'Monday'}`,
@@ -124,12 +124,12 @@ function buildRestaurantSchema(routeUrl) {
     name: locale.brand.name,
     url: routeUrl,
     image: SHARE_IMAGE_URL,
-    telephone: '+33000000000',
-    email: 'contact@la-petite-garoupe.com',
+    telephone: '+33623807815',
+    email: 'contact@lapetitegaroupe.com',
     servesCuisine: ['Cuisine traditionnelle', 'Cuisine méditerranéenne', 'Pizzas au feu de bois'],
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Plage de la Garoupe',
+      streetAddress: '991 Chem. de la Garoupe',
       postalCode: '06160',
       addressLocality: 'Antibes',
       addressCountry: 'FR',

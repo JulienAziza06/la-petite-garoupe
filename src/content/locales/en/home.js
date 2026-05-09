@@ -29,7 +29,7 @@ export const homePage = {
   "access": {
     "eyebrow": "Contact & access",
     "title": "An easy address to reach in the heart of Cap d’Antibes",
-    "text": "La Petite Garoupe is just off Place Nationale, with all the useful landmarks you need to arrive smoothly."
+    "text": "La Petite Garoupe is located on Plage de la Garoupe, at 991 Chemin de la Garoupe, in Cap d’Antibes."
   }
 };
 

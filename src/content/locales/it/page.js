@@ -1,40 +1,40 @@
 export const page = {
   "contact": {
     "addressTitle": "Indirizzo",
-    "addressValue": "Plage de la Garoupe, 06160 Antibes",
+    "addressValue": "991 Chem. de la Garoupe, 06160 Antibes, France",
     "hoursTitle": "Orari",
     "hours": [
       {
         "day": "Lunedì",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Martedì",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Mercoledì",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Giovedì",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Venerdì",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Sabato",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "Domenica",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       }
     ],
     "accessTitle": "Come arrivare",
-    "accessText": "Il ristorante si trova a due passi da Place Nationale, nel cuore del Cap d’Antibes."
+    "accessText": "La Petite Garoupe si trova sulla Plage de la Garoupe, al 991 Chemin de la Garoupe, a Cap d’Antibes."
   },
   "legal": {
     "eyebrow": "Note legali",

@@ -12,9 +12,9 @@
 ## Temporary Values
 
 - Preview URL: `https://weelsapp.github.io/la-petite-garoupe/`
-- Address placeholder: `Plage de la Garoupe, 06160 Antibes`
-- Phone placeholder: `À confirmer`
-- Email placeholder: `contact@la-petite-garoupe.com`
+- Address: `991 Chem. de la Garoupe, 06160 Antibes, France`
+- Phone: `+33 6 23 80 78 15`
+- Email: `contact@lapetitegaroupe.com`
 
 ## To Replace Before Launch
 

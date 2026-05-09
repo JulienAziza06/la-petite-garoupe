@@ -1,40 +1,40 @@
 export const page = {
   "contact": {
     "addressTitle": "地址",
-    "addressValue": "Plage de la Garoupe, 06160 Antibes",
+    "addressValue": "991 Chem. de la Garoupe, 06160 Antibes, France",
     "hoursTitle": "营业时间",
     "hours": [
       {
         "day": "周一",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "周二",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "周三",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "周四",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "周五",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "周六",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       },
       {
         "day": "周日",
-        "hours": "11:00 - 22:00"
+        "hours": "08:00 - 00:30"
       }
     ],
     "accessTitle": "如何前往",
-    "accessText": "餐厅距离 Place Nationale 仅几步之遥，位于 Cap d’Antibes 的中心地带。"
+    "accessText": "La Petite Garoupe 位于 Cap d’Antibes 的 Plage de la Garoupe，地址为 991 Chemin de la Garoupe。"
   },
   "legal": {
     "eyebrow": "法律信息",
