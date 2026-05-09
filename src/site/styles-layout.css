@@ -95,13 +95,13 @@
 }
 
 .v6-shell .v6-cuisine-menu-button {
-  background: var(--surface);
-  border: 1px solid rgba(190, 151, 87, 0.46);
-  color: var(--primary);
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  color: #ffffff;
 }
 
 .v6-shell .v6-cuisine-menu-button::before {
-  background: rgba(190, 151, 87, 0.08);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .v6-shell .v6-hero-directions-button {
