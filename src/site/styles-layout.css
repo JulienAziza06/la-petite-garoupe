@@ -534,6 +534,10 @@
   margin: 0;
 }
 
+.v6-shell .v6-home-story__copy > p {
+  font-weight: 300;
+}
+
 .v6-shell .v6-copy-followup {
   margin-top: 2rem;
 }
