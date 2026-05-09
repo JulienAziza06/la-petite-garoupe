@@ -1,0 +1,47 @@
+export const homePage = {
+  "hero": {
+    "title": "La Petite Garoupe은 하나의 장소이고, 요리는 하나의 예술입니다. 우리는 그 둘을 하나로 잇습니다.",
+    "seoHeading": "La Petite Garoupe, 비에유 앙티브의 지중해 레스토랑과 장작 화덕 피자",
+    "text": "La Petite Garoupe은 정성스럽게 만든 전통 요리와 장작 화덕 피자를 따뜻하고 편안한 분위기 속에서 선보입니다."
+  },
+  "cuisine": {
+    "eyebrow": "접시 위의 예술",
+    "title": "환대의 감각에 뿌리를 둔 요리",
+    "text": "La Petite Garoupe의 요리는 함께 나누기 위한 순간입니다. 전통 레시피를 넉넉하게 풀어낸 요리, 오래 끓인 음식, 그릴 요리, 장작 화덕 스페셜 메뉴가 남프랑스 특유의 따뜻함과 어울림의 감각을 전합니다."
+  },
+  "story": {
+    "eyebrow": "셰프",
+    "titleLines": [
+      "La Petite Garoupe 뒤에는 하나의 비전이 있고…",
+      "그 곁에는 한 명의 셰프가 있습니다."
+    ],
+    "paragraphs": [
+      "밀라노 출신의 Francesco Sita' 는 이탈리아와 프랑스를 오가며 경력을 쌓았고, 파리의 Plaza Athénée, 샤모니의 Cap Horn, 캅 당티브의 Plage Keller 같은 이름 있는 하우스들을 거쳤습니다.",
+      "바다와 미식 사이에서 쌓인 다양한 경험이 오늘날 정교하고 진정성 있으며 영감이 살아 있는 요리를 만들어 냅니다."
+    ],
+    "imageAlt": "셰프 Francesco Sita' 의 초상"
+  },
+  "ambiance": {
+    "eyebrow": "분위기",
+    "title": "즐거움과 만남을 위한 공간",
+    "text": "La Petite Garoupe에는 음식만큼이나 분위기를 즐기러 오는 사람들이 많습니다. 장작 화덕의 온기, 편안한 공기, 지중해다운 감성이 어우러져 단순하면서도 생기 있는 시간을 만들어 줍니다."
+  },
+  "access": {
+    "eyebrow": "연락처와 오시는 길",
+    "title": "위치와 접근성이 좋다는 점을 안심시켜 주는 텍스트",
+    "text": "유용한 랜드마크, 주변 분위기, 필요 시 주차 정보, 방문 전 알아두면 좋은 실용 정보를 담는 짧은 텍스트."
+  }
+};
+
+export const homeEvent = {
+  "eyebrow": "La Petite Garoupe의 이벤트 및 대관",
+  "title": "이벤트 대관도 가능합니다",
+  "text": "웨딩, 생일, 단체 식사처럼 소중한 순간을 위해 La Petite Garoupe이 함께합니다. 따뜻하고 편안한 분위기 속에서 넉넉한 요리와 환대의 감각을 바탕으로 맞춤형 시간을 만들어 드립니다.",
+  "tags": [
+    "웨딩",
+    "생일",
+    "단체 식사"
+  ],
+  "aria": "이벤트 종류",
+  "imageAlt": "단체 이용을 위해 준비된 테이블"
+};

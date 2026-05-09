@@ -1,0 +1,25 @@
+{
+  "name": "la-petite-garoupe-website",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.mjs",
+    "preview": "vite preview",
+    "validate:locales": "node scripts/validate-locales.mjs",
+    "build:pages": "VITE_SITE_ORIGIN=https://weelsapp.github.io/la-petite-garoupe npm run build -- --base /la-petite-garoupe/"
+  },
+  "dependencies": {
+    "@fontsource/plus-jakarta-sans": "^5.2.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "axe-core": "^4.11.1",
+    "playwright": "^1.58.2",
+    "vite": "^5.4.19"
+  }
+}

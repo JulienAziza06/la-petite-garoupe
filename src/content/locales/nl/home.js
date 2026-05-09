@@ -1,0 +1,47 @@
+export const homePage = {
+  "hero": {
+    "title": "La Petite Garoupe is een plek, koken is een kunst. Wij brengen die twee samen.",
+    "seoHeading": "La Petite Garoupe, mediterraan restaurant en houtovenpizza’s in Cap d’Antibes",
+    "text": "La Petite Garoupe biedt traditionele gerechten die met zorg worden bereid, samen met heerlijke houtovenpizza’s, in een warme en gezellige sfeer."
+  },
+  "cuisine": {
+    "eyebrow": "De kunst op onze borden",
+    "title": "Een keuken geworteld in de kunst van gastvrijheid",
+    "text": "Bij La Petite Garoupe is eten een moment om te delen: traditionele recepten met een gulle toets, langzaam bereide gerechten, grillgerechten en houtovenspecialiteiten die het Zuiden en gezelligheid oproepen."
+  },
+  "story": {
+    "eyebrow": "De chef",
+    "titleLines": [
+      "Achter La Petite Garoupe zit een visie…",
+      "maar ook een chef."
+    ],
+    "paragraphs": [
+      "Francesco Sita', afkomstig uit Milaan, bouwde zijn parcours op tussen Italië en Frankrijk, met passages in gerenommeerde huizen zoals Plaza Athénée in Parijs, Cap Horn in Chamonix en Plage Keller in Cap d’Antibes.",
+      "Uiteenlopende ervaringen, tussen zee en gastronomie, die vandaag een keuken vormgeven die precies, oprecht en geïnspireerd is."
+    ],
+    "imageAlt": "Portret van chef Francesco Sita'"
+  },
+  "ambiance": {
+    "eyebrow": "Sfeer",
+    "title": "Een plek van leven en plezier",
+    "text": "Mensen komen net zo goed naar La Petite Garoupe voor de sfeer als voor de keuken. De plek nodigt uit om te ontspannen, tussen de warmte van de houtoven, een gezellige sfeer en een mediterrane geest."
+  },
+  "access": {
+    "eyebrow": "Contact & bereikbaarheid",
+    "title": "Tekst die geruststelt over de ligging en de makkelijke bereikbaarheid",
+    "text": "Korte tekst met nuttige herkenningspunten, de buurt, parking indien nodig en praktische informatie vóór het bezoek."
+  }
+};
+
+export const homeEvent = {
+  "eyebrow": "Evenementen en privatisaties bij La Petite Garoupe",
+  "title": "Privatiseer de plek voor uw evenementen",
+  "text": "La Petite Garoupe begeleidt al uw bijzondere momenten, van huwelijken en verjaardagen tot groepsmaaltijden. In een warme en gezellige sfeer creëren we maatwerk rond een gulle keuken en de kunst van gastvrij ontvangen.",
+  "tags": [
+    "Bruiloften",
+    "Verjaardagen",
+    "Groepsmaaltijden"
+  ],
+  "aria": "Soorten evenementen",
+  "imageAlt": "Gedekte tafel om een groep te ontvangen"
+};
