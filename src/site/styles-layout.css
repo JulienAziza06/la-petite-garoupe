@@ -2295,6 +2295,9 @@
 }
 
 .v6-shell .v3-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   background: #ffffff;
   border-bottom: 0;
   box-shadow: none;
@@ -2302,7 +2305,7 @@
 
 .v6-shell .v3-header__link {
   font-family: var(--font-serif);
-  font-size: 1.1rem;
+  font-size: 1.35rem;
   font-weight: 500;
   letter-spacing: 0;
   text-transform: none;
@@ -2320,12 +2323,12 @@
 }
 
 .v6-shell .v6-header-social {
-  color: var(--primary);
+  color: #000000;
 }
 
 .v6-shell .v6-header-social:hover {
   color: var(--primary);
-  opacity: 0.72;
+  opacity: 1;
 }
 
 .v6-shell .v3-button,
@@ -2335,8 +2338,17 @@
 .v6-shell .v6-mobile-bar__reserve .v6-reserve__button,
 .v6-shell .v6-mobile-bar__directions .v6-directions__button,
 .v6-shell .v6-mobile-bar__social .v6-social__button {
-  letter-spacing: 0.04em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
   text-transform: none;
+}
+
+.v6-shell .v6-reserve__menu a,
+.v6-shell .v6-directions__menu a,
+.v6-shell .v6-directions__menu button,
+.v6-shell .v6-social__menu a {
+  font-weight: 500;
+  letter-spacing: 0.01em;
 }
 
 .v6-shell .v6-hero-menu-button {
