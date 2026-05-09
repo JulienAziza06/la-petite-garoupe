@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'Anko';
-  src: url('./assets/fonts/anko-medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
 .v5-shell {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -19,7 +12,7 @@
 .v5-shell .v3-hero__headline,
 .v5-shell .v3-brand strong,
 .v5-shell .v3-quote {
-  font-family: 'Anko', serif;
+  font-family: var(--font-serif);
   font-weight: 500;
   letter-spacing: normal;
   font-kerning: normal;

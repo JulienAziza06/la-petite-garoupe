@@ -1,8 +1,9 @@
 export const homePage = {
   "hero": {
-    "title": "La Petite Garoupe ist ein Ort, und Küche ist eine Kunst. Wir bringen beides zusammen.",
+    "title": "La Petite\nGaroupe,",
+    "subtitle": "Strandrestaurant\nam Cap d’Antibes.",
     "seoHeading": "La Petite Garoupe, mediterranes Restaurant und Pizzen aus dem Holzofen in Cap d’Antibes",
-    "text": "La Petite Garoupe bietet traditionelle Küche mit viel Sorgfalt sowie köstliche Pizza aus dem Holzofen in einer warmen und einladenden Atmosphäre."
+    "text": "Sonnenverwöhnte Küche,\ndie Füße im Sand,\nmit Blick auf das Mittelmeer."
   },
   "cuisine": {
     "eyebrow": "Die Kunst auf unseren Tellern",

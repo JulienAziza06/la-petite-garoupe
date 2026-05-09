@@ -1,8 +1,9 @@
 export const homePage = {
   "hero": {
-    "title": "La Petite Garoupe 是一个地方，料理是一门艺术。我们把两者结合在一起。",
+    "title": "La Petite\nGaroupe,",
+    "subtitle": "Cap d’Antibes\n海滩餐厅。",
     "seoHeading": "La Petite Garoupe，位于昂蒂布老城的地中海餐厅与柴火烤披萨",
-    "text": "La Petite Garoupe 提供用心制作的传统料理，也有美味的柴火烤披萨，整体氛围温暖而友好。"
+    "text": "阳光下的料理，\n双脚踏在沙滩上，\n面朝地中海。"
   },
   "cuisine": {
     "eyebrow": "盘中的艺术",

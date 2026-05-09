@@ -1,8 +1,9 @@
 export const homePage = {
   "hero": {
-    "title": "La Petite Garoupe はひとつの場所であり、料理はひとつの芸術です。私たちはその二つを結びつけます。",
+    "title": "La Petite\nGaroupe,",
+    "subtitle": "カップ・ダンティーブの\nビーチレストラン。",
     "seoHeading": "La Petite Garoupe、ヴィエイユ・アンティーブの地中海レストランと薪窯ピッツァ",
-    "text": "La Petite Garoupe では、丁寧に作る伝統料理と薪窯ピッツァを、温かく心地よい雰囲気の中で楽しめます。"
+    "text": "陽光に満ちた料理、\n砂浜に足をつけて、\n地中海を目の前に。"
   },
   "cuisine": {
     "eyebrow": "皿の上の芸術",

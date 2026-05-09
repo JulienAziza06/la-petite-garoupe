@@ -1,8 +1,9 @@
 export const homePage = {
   "hero": {
-    "title": "La Petite Garoupe est un lieu, la cuisine est un art. Nous réunissons les deux.",
+    "title": "La Petite\nGaroupe,",
+    "subtitle": "restaurant de plage\nau cap d’Antibes.",
     "seoHeading": "La Petite Garoupe, restaurant méditerranéen et pizzas au feu de bois dans le Cap d’Antibes",
-    "text": "La Petite Garoupe propose une cuisine traditionnelle faite avec amour, mais également de délicieuses pizzas au four à bois, dans une ambiance chaleureuse et conviviale."
+    "text": "Une cuisine ensoleillée,\nles pieds dans le sable,\nface à la Méditerranée."
   },
   "cuisine": {
     "eyebrow": "L’art dans nos assiettes",

@@ -29,7 +29,14 @@ export function HomePage() {
     <>
       <section className="v3-hero">
         <img
-          className="v3-hero__image"
+          className="v3-hero__image v3-hero__image--desktop"
+          src={siteMedia.heroCover}
+          alt=""
+          fetchPriority="high"
+          decoding="async"
+        />
+        <img
+          className="v3-hero__image v3-hero__image--mobile"
           src={siteMedia.heroTerrace}
           alt=""
           fetchPriority="high"
@@ -39,7 +46,12 @@ export function HomePage() {
 
         <div className="v3-hero__content">
           <h1 className="visually-hidden">{seoHeading}</h1>
-          <p className="v3-hero__headline">{home.hero.title}</p>
+          <p className="v3-hero__headline">
+            <span className="v3-hero__headline-main">{home.hero.title}</span>
+            {home.hero.subtitle ? (
+              <span className="v3-hero__headline-sub">{home.hero.subtitle}</span>
+            ) : null}
+          </p>
           <p>{home.hero.text}</p>
 
           <div className="v3-button-row">
