@@ -8,7 +8,7 @@
     "build": "node scripts/build.mjs",
     "preview": "vite preview",
     "validate:locales": "node scripts/validate-locales.mjs",
-    "build:pages": "VITE_SITE_ORIGIN=https://weelsapp.github.io/la-petite-garoupe npm run build -- --base /la-petite-garoupe/"
+    "build:pages": "VITE_SITE_ORIGIN=https://JulienAziza06.github.io/la-petite-garoupe npm run build -- --base /la-petite-garoupe/"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.2.11",

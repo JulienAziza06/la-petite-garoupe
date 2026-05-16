@@ -21,7 +21,7 @@ npm run build
 The temporary preview target is:
 
 ```text
-https://weelsapp.github.io/la-petite-garoupe/
+https://JulienAziza06.github.io/la-petite-garoupe/
 ```
 
 Build the static preview with:

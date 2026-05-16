@@ -7,7 +7,7 @@ const nodeEnv = typeof process !== 'undefined' ? process.env : {};
 export const SITE_ORIGIN = (
   viteEnv.VITE_SITE_ORIGIN ??
   nodeEnv.VITE_SITE_ORIGIN ??
-  'https://weelsapp.github.io/la-petite-garoupe'
+  'https://JulienAziza06.github.io/la-petite-garoupe'
 ).replace(/\/$/, '');
 export const DEFAULT_LANGUAGE = 'fr';
 export const SHARE_IMAGE_URL = `${SITE_ORIGIN}/og-image-v2.jpg`;
