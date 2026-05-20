@@ -1,5 +1,6 @@
 export const page = {
   "contact": {
+    "sectionTitle": "实用信息",
     "addressTitle": "地址",
     "addressValue": "991 Chem. de la Garoupe, 06160 Antibes, France",
     "hoursTitle": "营业时间",

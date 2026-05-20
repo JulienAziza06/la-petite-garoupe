@@ -172,13 +172,17 @@ export function HomePage() {
         <div className="v3-container v6-contact-stack">
           <div className="v3-grid v3-grid--contact-page">
             <div className="v3-contact-copy">
+              <div className="v6-contact-heading">
+                <h2 className="v6-contact-title">{contact.sectionTitle}</h2>
+              </div>
+
               <div>
-                <h2>{contact.addressTitle}</h2>
+                <h3>{contact.addressTitle}</h3>
                 <p>{contact.addressValue}</p>
               </div>
 
               <div>
-                <h2>{contact.hoursTitle}</h2>
+                <h3>{contact.hoursTitle}</h3>
                 {contactHoursSummary ? (
                   <p className="v6-hours-summary">{contactHoursSummary}</p>
                 ) : (
@@ -194,7 +198,7 @@ export function HomePage() {
               </div>
 
               <div>
-                <h2>{contact.accessTitle}</h2>
+                <h3>{contact.accessTitle}</h3>
                 <p>{contact.accessText}</p>
 
                 <figure className="v3-feature-image v6-contact-media-mobile">
