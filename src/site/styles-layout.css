@@ -1105,8 +1105,25 @@
   align-items: stretch;
 }
 
-.v6-shell .v5-contact-media,
+.v6-shell .v3-contact-copy h2 {
+  font-size: clamp(1.32rem, 2.88vw, 2.82rem);
+  line-height: 1.02;
+  margin-bottom: 0.65rem;
+}
+
+.v6-shell .v5-contact-media {
+  align-self: start;
+  height: auto;
+}
+
 .v6-shell .v5-contact-media .v3-feature-image {
+  aspect-ratio: 1 / 1;
+  height: auto;
+  min-height: 0;
+}
+
+.v6-shell .v5-contact-media .v3-feature-image img {
+  aspect-ratio: 1 / 1;
   height: 100%;
 }
 
