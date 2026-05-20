@@ -2111,14 +2111,7 @@
   }
 
   .v6-shell .v6-events__tags {
-    gap: 0.6rem;
-    margin-top: 1.1rem;
-  }
-
-  .v6-shell .v6-events__tags span {
-    min-height: 2.15rem;
-    padding: 0.65rem 0.8rem;
-    font-size: 0.66rem;
+    display: none;
   }
 
   .v6-shell .v5-cuisine__grid .v5-showcase-card img,
