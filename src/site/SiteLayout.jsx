@@ -209,6 +209,44 @@ function SiteLayoutInner({ lang, locale, basePath }) {
   }, [closeAll, location.pathname]);
 
   useEffect(() => {
+    if (typeof window === 'undefined') return undefined;
+
+    const root = document.documentElement;
+
+    function updateVisualViewportHeight() {
+      const viewport = window.visualViewport;
+      const height = viewport?.height ?? window.innerHeight;
+      const width = viewport?.width ?? window.innerWidth;
+      const mobileHeroTitleSize =
+        height <= 700
+          ? Math.min(Math.max(width * 0.16, 51), 82)
+          : Math.min(Math.max(width * 0.18, 60), 101);
+      const mobileHeroImageWidth = Math.min(width * 0.86, 520);
+
+      root.style.setProperty('--v6-visual-viewport-height', `${height}px`);
+      root.style.setProperty('--v6-mobile-hero-title-size', `${mobileHeroTitleSize}px`);
+      root.style.setProperty('--v6-mobile-hero-image-width', `${mobileHeroImageWidth}px`);
+    }
+
+    updateVisualViewportHeight();
+
+    window.addEventListener('resize', updateVisualViewportHeight);
+    window.addEventListener('orientationchange', updateVisualViewportHeight);
+    window.visualViewport?.addEventListener('resize', updateVisualViewportHeight);
+    window.visualViewport?.addEventListener('scroll', updateVisualViewportHeight);
+
+    return () => {
+      window.removeEventListener('resize', updateVisualViewportHeight);
+      window.removeEventListener('orientationchange', updateVisualViewportHeight);
+      window.visualViewport?.removeEventListener('resize', updateVisualViewportHeight);
+      window.visualViewport?.removeEventListener('scroll', updateVisualViewportHeight);
+      root.style.removeProperty('--v6-visual-viewport-height');
+      root.style.removeProperty('--v6-mobile-hero-title-size');
+      root.style.removeProperty('--v6-mobile-hero-image-width');
+    };
+  }, []);
+
+  useEffect(() => {
     function handlePointerDown(event) {
       if (
         menuOpen &&

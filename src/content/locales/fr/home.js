@@ -3,7 +3,7 @@ export const homePage = {
     "title": "La Petite\nGaroupe",
     "subtitle": "Restaurant de plage\nau Cap d’Antibes.",
     "seoHeading": "La Petite Garoupe, restaurant méditerranéen et pizzas au feu de bois dans le Cap d’Antibes",
-    "text": "Une cuisine ensoleillée,\nles pieds dans le sable,\nface à la Méditerranée."
+    "text": "Une cuisine ensoleillée,\nface à la Méditerranée."
   },
   "cuisine": {
     "eyebrow": "Le lieu",
