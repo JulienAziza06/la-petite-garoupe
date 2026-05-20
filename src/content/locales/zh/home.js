@@ -1,6 +1,6 @@
 export const homePage = {
   "hero": {
-    "title": "La Petite\nGaroupe,",
+    "title": "La Petite\nGaroupe",
     "subtitle": "Cap d’Antibes\n海滩餐厅。",
     "seoHeading": "La Petite Garoupe，位于昂蒂布老城的地中海餐厅与柴火烤披萨",
     "text": "阳光下的料理，\n双脚踏在沙滩上，\n面朝地中海。"

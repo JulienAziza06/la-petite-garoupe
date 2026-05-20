@@ -1,6 +1,6 @@
 export const homePage = {
   "hero": {
-    "title": "La Petite\nGaroupe,",
+    "title": "La Petite\nGaroupe",
     "subtitle": "캅 당티브의\n비치 레스토랑.",
     "seoHeading": "La Petite Garoupe, 비에유 앙티브의 지중해 레스토랑과 장작 화덕 피자",
     "text": "햇살 가득한 요리,\n모래 위의 발,\n지중해를 마주한 자리."

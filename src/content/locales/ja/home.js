@@ -1,6 +1,6 @@
 export const homePage = {
   "hero": {
-    "title": "La Petite\nGaroupe,",
+    "title": "La Petite\nGaroupe",
     "subtitle": "カップ・ダンティーブの\nビーチレストラン。",
     "seoHeading": "La Petite Garoupe、ヴィエイユ・アンティーブの地中海レストランと薪窯ピッツァ",
     "text": "陽光に満ちた料理、\n砂浜に足をつけて、\n地中海を目の前に。"

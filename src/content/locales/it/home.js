@@ -1,6 +1,6 @@
 export const homePage = {
   "hero": {
-    "title": "La Petite\nGaroupe,",
+    "title": "La Petite\nGaroupe",
     "subtitle": "ristorante di spiaggia\na Cap d’Antibes.",
     "seoHeading": "La Petite Garoupe, ristorante mediterraneo e pizze al forno a legna nel Cap d’Antibes",
     "text": "Una cucina solare,\ni piedi nella sabbia,\ndi fronte al Mediterraneo."

@@ -1,6 +1,6 @@
 export const homePage = {
   "hero": {
-    "title": "La Petite\nGaroupe,",
+    "title": "La Petite\nGaroupe",
     "subtitle": "пляжний ресторан\nна мисі Антіб.",
     "seoHeading": "La Petite Garoupe, середземноморський ресторан і піца з дров’яної печі у Старому Антібі",
     "text": "Сонячна кухня,\nноги в піску,\nперед Середземним морем."
