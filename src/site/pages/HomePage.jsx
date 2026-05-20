@@ -38,7 +38,7 @@ export function HomePage() {
         />
         <img
           className="v3-hero__image v3-hero__image--mobile"
-          src={siteMedia.heroCover}
+          src={siteMedia.heroMobileCollage}
           alt=""
           fetchPriority="high"
           decoding="async"
