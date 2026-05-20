@@ -2123,6 +2123,7 @@
     aspect-ratio: 16 / 9;
     height: auto;
     object-fit: cover;
+    object-position: center 30%;
   }
 
   .v6-shell .v6-events__image img {
