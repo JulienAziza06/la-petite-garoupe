@@ -2036,6 +2036,12 @@
     display: none;
   }
 
+  .v6-shell .v3-contact-copy h2 {
+    font-size: clamp(2.2rem, 4.8vw, 4.7rem);
+    line-height: 1.08;
+    margin-bottom: 1rem;
+  }
+
   .v6-shell .v6-events__grid {
     grid-template-columns: 1fr;
   }
