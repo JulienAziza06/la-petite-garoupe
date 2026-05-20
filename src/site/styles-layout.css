@@ -593,8 +593,8 @@
   align-items: center;
   min-height: 2.3rem;
   padding: 0.72rem 0.95rem;
-  background: rgba(255, 255, 255, 0.58);
-  color: var(--primary);
+  background: #eee6dc;
+  color: var(--secondary);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -1186,14 +1186,14 @@
 }
 
 .v6-shell .v6-access-link {
-  border: 1px solid rgba(74, 88, 118, 0.42);
-  background: transparent;
-  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  background: var(--secondary);
+  color: #ffffff;
   box-shadow: 0 0 0 rgba(148, 82, 61, 0);
 }
 
 .v6-shell .v6-access-link::before {
-  background: rgba(74, 88, 118, 0.08);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .v6-shell .v6-access-button:hover,
@@ -1210,8 +1210,9 @@
 }
 
 .v6-shell .v6-access-link:hover {
-  background: rgba(74, 88, 118, 0.08);
-  border-color: rgba(74, 88, 118, 0.56);
+  background: var(--secondary);
+  border-color: var(--secondary);
+  color: #ffffff;
 }
 
 .v6-shell .v6-access-actions .v6-reserve:hover .v6-access-button {
@@ -2506,10 +2507,38 @@
 
 @media (min-width: 901px) {
   .v6-shell .v3-hero__headline-sub {
-    margin-top: 0.34em;
+    margin-top: 0.52em;
   }
 
   .v6-shell .v3-hero__image--desktop {
     transform: translateX(-4%);
   }
+}
+
+.v6-shell .v5-cuisine__intro h2,
+.v6-shell .v3-copy h2,
+.v6-shell .v6-events__copy h2,
+.v6-shell .v3-contact-copy h2,
+.v6-shell .v3-section-head h2 {
+  color: var(--secondary);
+}
+
+.v6-shell .v5-cuisine__intro > p,
+.v6-shell .v3-copy > p,
+.v6-shell .v6-events__copy > p,
+.v6-shell .v3-contact-copy > div > p,
+.v6-shell .v3-section-head p {
+  font-weight: 300;
+}
+
+.v6-shell .v6-access-link,
+.v6-shell .v6-directions__button.v6-access-link,
+.v6-shell .v6-directions__button.v6-access-link:hover,
+.v6-shell .v6-directions__button.v6-access-link:focus-visible,
+.v6-shell .v6-directions__button.v6-access-link:active,
+.v6-shell .v6-directions.is-open .v6-directions__button.v6-access-link,
+.v6-shell .v6-directions:hover .v6-directions__button.v6-access-link {
+  background: var(--secondary);
+  border-color: var(--secondary);
+  color: #ffffff;
 }
