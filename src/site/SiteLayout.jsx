@@ -255,10 +255,11 @@ function SiteLayoutInner({ lang, locale, basePath }) {
             to={buildPath()}
             aria-label={`${locale.brand.name} - ${locale.brand.district}`}
           >
-            <span
+            <img
               className="v6-brand-logo"
+              src={headerLogoSrc}
+              alt=""
               aria-hidden="true"
-              style={{ '--brand-logo-url': `url(${headerLogoSrc})` }}
             />
           </NavLink>
 

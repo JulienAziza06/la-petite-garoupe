@@ -34,7 +34,7 @@
 }
 
 .v6-shell .v6-brand-logo {
-  background: var(--primary);
+  background: transparent;
 }
 
 .v6-shell .v3-header__link {
@@ -2103,7 +2103,7 @@
 }
 
 .v6-shell .v6-brand-logo {
-  background: var(--primary);
+  background: transparent;
 }
 
 .v6-shell .v3-header__link,
