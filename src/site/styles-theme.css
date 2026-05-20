@@ -252,12 +252,12 @@
   min-height: 3rem;
   padding: 0.9rem 1.2rem;
   background: transparent;
-  border: 1px solid rgba(190, 151, 87, 0.4);
+  border: 1px solid rgba(148, 82, 61, 0.4);
   color: var(--primary);
 }
 
 .v5-shell .v5-button--outlined:hover {
-  background: rgba(190, 151, 87, 0.06);
+  background: rgba(148, 82, 61, 0.06);
 }
 
 .v5-shell .v3-footer {
@@ -270,14 +270,14 @@
 }
 
 .v5-shell .v5-whatsapp-button {
-  background: #be9757;
-  border-color: #be9757;
+  background: #94523d;
+  border-color: #94523d;
   color: #000000;
 }
 
 .v5-shell .v5-whatsapp-button:hover {
-  background: #be9757;
-  border-color: #be9757;
+  background: #94523d;
+  border-color: #94523d;
 }
 
 .v5-shell .v5-about-promise {
@@ -347,7 +347,7 @@
   display: flex;
   gap: 0.9rem;
   align-items: flex-start;
-  border: 1px solid rgba(190, 151, 87, 0.36);
+  border: 1px solid rgba(148, 82, 61, 0.36);
   background: rgba(255, 255, 255, 0.62);
   color: var(--muted);
   transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
@@ -383,8 +383,8 @@
 }
 
 .v5-shell .v5-contact-action.is-whatsapp {
-  background: #be9757;
-  border-color: #be9757;
+  background: #94523d;
+  border-color: #94523d;
   color: #000000;
 }
 
@@ -394,7 +394,7 @@
 
 .v5-shell .v5-contact-action.is-outline {
   background: transparent;
-  border-color: rgba(190, 151, 87, 0.28);
+  border-color: rgba(148, 82, 61, 0.28);
 }
 
 .v5-shell .v5-contact-media {

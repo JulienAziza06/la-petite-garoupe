@@ -6,7 +6,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  background: #ffffff;
+  background: #fbf8f2;
   overflow-x: clip;
 }
 
@@ -36,14 +36,19 @@ img {
 }
 
 .v3-shell {
-  --bg: #ffffff;
-  --surface: #ffffff;
+  --brand-background: #fbf8f2;
+  --brand-primary: #94523d;
+  --brand-secondary: #4a5876;
+  --bg: var(--brand-background);
+  --surface: #fffdf8;
   --surface-strong: #ffffff;
-  --primary: #be9757;
-  --primary-soft: #be9757;
+  --primary: var(--brand-primary);
+  --primary-soft: #b36950;
+  --secondary: var(--brand-secondary);
+  --secondary-soft: #687692;
   --text: #000000;
   --muted: #000000;
-  --outline: rgba(190, 151, 87, 0.22);
+  --outline: rgba(74, 88, 118, 0.22);
   --font-serif: 'Cormorant Garamond', 'Bodoni 72', 'Didot', 'Times New Roman', serif;
   background: var(--bg);
   color: var(--text);
@@ -290,7 +295,7 @@ img {
 }
 
 .v3-button--secondary-dark::before {
-  background: rgba(190, 151, 87, 0.06);
+  background: rgba(148, 82, 61, 0.06);
 }
 
 .v3-button:hover::before {
@@ -321,7 +326,7 @@ img {
   width: 2.45rem;
   height: 2.45rem;
   border-radius: 999px;
-  border: 1px solid rgba(190, 151, 87, 0.65);
+  border: 1px solid rgba(148, 82, 61, 0.65);
   background: rgba(255, 255, 255, 0.86);
   display: grid;
   place-items: center;
@@ -339,8 +344,8 @@ img {
   pointer-events: none;
   transform: translateY(0.4rem);
   background: rgba(255, 255, 255, 0.98);
-  border: 1px solid rgba(190, 151, 87, 0.6);
-  box-shadow: 0 20px 40px rgba(190, 151, 87, 0.06);
+  border: 1px solid rgba(148, 82, 61, 0.6);
+  box-shadow: 0 20px 40px rgba(148, 82, 61, 0.06);
   transition:
     opacity 200ms ease,
     transform 220ms ease,
@@ -393,7 +398,7 @@ img {
   background: var(--bg);
   transform: translateX(-102%);
   transition: transform 180ms ease;
-  border-right: 1px solid rgba(190, 151, 87, 0.45);
+  border-right: 1px solid rgba(148, 82, 61, 0.45);
 }
 
 .v3-drawer.is-open {
@@ -511,7 +516,7 @@ img {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1px;
-  background: rgba(190, 151, 87, 0.32);
+  background: rgba(148, 82, 61, 0.32);
 }
 
 .v3-practical-band__grid article {
@@ -535,7 +540,7 @@ img {
 }
 
 .v3-section--quote {
-  background: linear-gradient(180deg, rgba(190, 151, 87, 0.05), transparent);
+  background: linear-gradient(180deg, rgba(148, 82, 61, 0.05), transparent);
 }
 
 .v3-page-hero__grid,
@@ -922,7 +927,7 @@ img {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   min-height: 4rem;
-  border-top: 1px solid rgba(190, 151, 87, 0.25);
+  border-top: 1px solid rgba(148, 82, 61, 0.25);
   background: rgba(255, 255, 255, 0.86);
   backdrop-filter: blur(18px);
 }
