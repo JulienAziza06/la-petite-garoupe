@@ -176,6 +176,10 @@ export function HomePage() {
                 <h2 className="v6-contact-title">{contact.sectionTitle}</h2>
               </div>
 
+              <figure className="v3-feature-image v6-contact-media-mobile">
+                <img src={siteMedia.access} alt="" loading="lazy" decoding="async" />
+              </figure>
+
               <div>
                 <h3>{contact.addressTitle}</h3>
                 <p>{contact.addressValue}</p>
@@ -200,10 +204,6 @@ export function HomePage() {
               <div>
                 <h3>{contact.accessTitle}</h3>
                 <p>{contact.accessText}</p>
-
-                <figure className="v3-feature-image v6-contact-media-mobile">
-                  <img src={siteMedia.access} alt="" loading="lazy" decoding="async" />
-                </figure>
 
                 <div className="v3-button-row v6-access-actions">
                   <ReserveDropdown locale={locale} buttonClassName="v6-access-button v6-access-button--reserve" />

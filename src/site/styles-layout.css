@@ -2060,6 +2060,13 @@
 }
 
 @media (max-width: 640px) {
+  .v6-shell {
+    --v6-mobile-section-space: clamp(2.35rem, 8vw, 2.8rem);
+    --v6-mobile-content-gap: 1.35rem;
+    --v6-mobile-copy-gap: 0.95rem;
+    --v6-mobile-action-gap: 1.2rem;
+  }
+
   .v6-shell .v3-container,
   .v6-shell .v3-header__inner,
   .v6-shell .v3-footer__inner,
@@ -2067,21 +2074,54 @@
     width: min(calc(100% - 2.4rem), 1200px);
   }
 
+  .v6-shell .v3-section,
+  .v6-shell .v3-hero + .v3-section {
+    padding-top: var(--v6-mobile-section-space);
+  }
+
+  .v6-shell .v3-section + .v3-section {
+    padding-top: calc(var(--v6-mobile-section-space) * 2);
+  }
+
+  .v6-shell .v5-cuisine,
+  .v6-shell .v5-ambiance,
+  .v6-shell .v6-home-story,
+  .v6-shell .v6-events__grid {
+    gap: var(--v6-mobile-content-gap);
+  }
+
+  .v6-shell .v5-cuisine__intro h2,
+  .v6-shell .v3-copy h2,
+  .v6-shell .v6-events__copy h2 {
+    margin-bottom: var(--v6-mobile-copy-gap);
+  }
+
+  .v6-shell .v6-copy-followup,
+  .v6-shell .v6-access-actions {
+    margin-top: var(--v6-mobile-action-gap);
+  }
+
   .v6-shell .v5-contact-media {
     display: none;
   }
 
   .v6-shell #access {
-    padding-top: clamp(3.2rem, 12vw, 4.6rem);
+    padding-top: calc(var(--v6-mobile-section-space) * 2);
   }
 
   .v6-shell #access .v3-contact-copy {
-    gap: 1.1rem;
+    gap: var(--v6-mobile-content-gap);
   }
 
   .v6-shell .v6-contact-title {
-    font-size: clamp(2.65rem, 13vw, 4.05rem);
-    line-height: 0.96;
+    font-size: clamp(2.2rem, 4.8vw, 4.7rem);
+    line-height: 1.08;
+  }
+
+  .v6-shell #access .v3-contact-copy p,
+  .v6-shell #access .v6-hours-summary {
+    font-size: 0.85rem;
+    line-height: 1.44;
   }
 
   .v6-shell .v3-contact-copy h3 {
@@ -2110,6 +2150,10 @@
     font-size: 1rem;
   }
 
+  .v6-shell .v6-events__copy > p {
+    margin-bottom: 0;
+  }
+
   .v6-shell .v6-events__tags {
     display: none;
   }
@@ -2123,7 +2167,7 @@
     aspect-ratio: 16 / 9;
     height: auto;
     object-fit: cover;
-    object-position: center 30%;
+    object-position: center 70%;
   }
 
   .v6-shell .v6-events__image img {
@@ -2141,7 +2185,7 @@
     display: block;
     width: 80%;
     min-height: 0;
-    margin: 1.2rem auto 0.8rem;
+    margin: 0.1rem auto 0;
     overflow: visible;
   }
 
@@ -2155,10 +2199,6 @@
 
   .v6-shell #access {
     padding-bottom: 2.4rem;
-  }
-
-  .v6-shell .v6-access-actions {
-    margin-top: 0.85rem;
   }
 }
 
@@ -2211,7 +2251,7 @@
 
 .v6-shell .v3-mobile-bar {
   background: var(--bg);
-  border-top: 1px solid rgba(74, 88, 118, 0.18);
+  border-top: 0;
   box-shadow: none;
 }
 
@@ -2219,7 +2259,7 @@
 .v6-shell .v6-mobile-bar__reserve .v6-reserve__button,
 .v6-shell .v6-mobile-bar__directions .v6-directions__button,
 .v6-shell .v6-mobile-bar__social .v6-social__button {
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .v6-shell .v6-mobile-action.is-active,
@@ -2360,7 +2400,7 @@
     max-width: 19ch;
     margin-top: 0.38em;
     font-size: 0.43em;
-    line-height: 0.92;
+    line-height: 1.14;
     color: var(--secondary);
   }
 
@@ -2404,7 +2444,7 @@
     display: grid;
     align-items: start;
     min-height: auto;
-    padding: 0 0 clamp(3.2rem, 10vw, 4.6rem);
+    padding: 0 0 clamp(1.6rem, 5vw, 2.3rem);
     background: var(--bg);
     overflow: visible;
   }
@@ -2419,8 +2459,8 @@
     inset: auto;
     width: min(96vw, 36rem);
     height: auto;
-    aspect-ratio: 1437 / 626;
-    margin: clamp(-1.3rem, -4vw, -0.5rem) auto clamp(1rem, 3.5vw, 1.35rem);
+    aspect-ratio: 1200 / 791;
+    margin: clamp(-4rem, -14vw, -1.8rem) auto clamp(1rem, 3.5vw, 1.35rem);
     object-fit: contain;
     object-position: center;
     background: var(--bg);
@@ -2457,7 +2497,7 @@
     margin: 0.48em auto 0;
     color: var(--secondary);
     font-size: 0.43em;
-    line-height: 0.92;
+    line-height: 1.14;
   }
 
   .v6-shell .v3-hero__content > p:not(.v3-hero__headline) {
@@ -2689,9 +2729,9 @@
 }
 
 .v6-shell .v6-mobile-bar__directions .v6-directions__menu {
-  background: var(--secondary);
+  background: var(--primary);
   border: 0;
-  box-shadow: 0 20px 40px rgba(74, 88, 118, 0.18);
+  box-shadow: 0 20px 40px rgba(148, 82, 61, 0.18);
 }
 
 .v6-shell .v3-header__actions .v6-reserve__menu a,
