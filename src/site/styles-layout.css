@@ -548,6 +548,15 @@
   align-items: start;
 }
 
+.v6-shell .v6-home-story__media-grid {
+  margin: 0;
+}
+
+.v6-shell .v6-place-image img,
+.v6-shell .v6-home-story__media-grid .v5-showcase-card img {
+  aspect-ratio: 1 / 1;
+}
+
 .v6-shell .v6-home-story__copy h2 > span {
   display: block;
 }
@@ -637,6 +646,10 @@
 
   .v6-shell .v6-events__grid--reverse .v6-events__copy {
     order: 2;
+  }
+
+  .v6-shell .v6-home-story--grid {
+    grid-template-columns: minmax(0, 0.885fr) minmax(0, 1.115fr);
   }
 
   .v6-shell .v6-events__image {

@@ -29,7 +29,7 @@ export const homePage = {
 };
 
 export const homeEvent = {
-  "eyebrow": "Eventi e privatisations da La Petite Garoupe",
+  "eyebrow": "Eventi e privatisations",
   "title": "Privatizza La Petite Garoupe.",
   "text": "Matrimoni, compleanni, battesimi, pasti di gruppo o eventi professionali: La Petite Garoupe accoglie i tuoi momenti privati in un contesto raro, tra spiaggia, Mediterraneo e spirito Riviera. Il nostro team ti accompagna per immaginare un evento personale, semplice, elegante e memorabile.",
   "tags": [

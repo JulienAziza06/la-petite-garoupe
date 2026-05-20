@@ -29,7 +29,7 @@ export const homePage = {
 };
 
 export const homeEvent = {
-  "eyebrow": "Eventos y privatizaciones en La Petite Garoupe",
+  "eyebrow": "Eventos y privatizaciones",
   "title": "Privatice La Petite Garoupe.",
   "text": "Boda, cumpleaños, bautizo, comida de grupo o evento profesional: La Petite Garoupe acoge sus momentos privados en un marco excepcional, entre playa, Mediterráneo y espíritu Riviera. Nuestro equipo le acompaña para imaginar un evento personal, sencillo, elegante y memorable.",
   "tags": [

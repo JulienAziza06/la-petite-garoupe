@@ -29,7 +29,7 @@ export const homePage = {
 };
 
 export const homeEvent = {
-  "eyebrow": "Evenementen en privatisaties bij La Petite Garoupe",
+  "eyebrow": "Evenementen en privatisaties",
   "title": "Privatiseer La Petite Garoupe.",
   "text": "Bruiloft, verjaardag, doop, groepsmaaltijd of professioneel evenement: La Petite Garoupe ontvangt uw privémomenten in een zeldzaam kader, tussen strand, Middellandse Zee en Riviera-geest. Ons team helpt u een persoonlijk, eenvoudig, elegant en memorabel evenement vorm te geven.",
   "tags": [

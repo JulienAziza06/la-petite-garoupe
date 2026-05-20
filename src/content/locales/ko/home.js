@@ -29,7 +29,7 @@ export const homePage = {
 };
 
 export const homeEvent = {
-  "eyebrow": "La Petite Garoupe의 이벤트 및 대관",
+  "eyebrow": "이벤트 및 대관",
   "title": "La Petite Garoupe를 대관하세요.",
   "text": "웨딩, 생일, 세례식, 단체 식사 또는 기업 행사까지: La Petite Garoupe는 해변, 지중해, 리비에라 감성이 어우러진 특별한 공간에서 소중한 시간을 맞이합니다. 저희 팀이 개인적이고 단순하며 우아하고 기억에 남는 이벤트를 함께 만들어 드립니다.",
   "tags": [

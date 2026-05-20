@@ -78,17 +78,19 @@ export function HomePage() {
             <p>{home.cuisine.text}</p>
           </div>
 
-          <div className="v5-cuisine__grid">
-            <ShowcaseCard src={siteMedia.cuisineTopLeft} alt="" />
-            <ShowcaseCard src={siteMedia.cuisineTopRight} alt="" />
-            <ShowcaseCard src={siteMedia.cuisineBottomRight} alt="" />
-            <ShowcaseCard src={siteMedia.cuisineBottomLeft} alt="" />
-          </div>
+          <figure className="v5-showcase-card v6-place-image">
+            <img
+              src={siteMedia.placeImage}
+              alt={home.cuisine.imageAlt ?? ''}
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
         </div>
       </section>
 
       <section className="v3-section">
-        <div className="v3-container v6-home-story v5-feature--reverse">
+        <div className="v3-container v6-home-story v6-home-story--grid v5-feature--reverse">
           <div className="v3-copy v6-home-story__copy">
             {home.story.eyebrow ? <span className="v3-kicker">{home.story.eyebrow}</span> : null}
             <h2>{storyTitle}</h2>
@@ -101,17 +103,12 @@ export function HomePage() {
             </div>
           </div>
 
-          <figure className="v3-feature-image v6-home-story__media">
-            <picture>
-              <source media="(max-width: 900px)" srcSet={siteMedia.chefMobile} />
-              <img
-                src={siteMedia.chefDesktop}
-                alt={home.story.imageAlt ?? ''}
-                loading="lazy"
-                decoding="async"
-              />
-            </picture>
-          </figure>
+          <div className="v5-cuisine__grid v6-home-story__media v6-home-story__media-grid">
+            <ShowcaseCard src={siteMedia.cuisineTopLeft} alt="" />
+            <ShowcaseCard src={siteMedia.cuisineTopRight} alt="" />
+            <ShowcaseCard src={siteMedia.cuisineBottomRight} alt="" />
+            <ShowcaseCard src={siteMedia.cuisineBottomLeft} alt="" />
+          </div>
         </div>
       </section>
 

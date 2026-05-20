@@ -29,7 +29,7 @@ export const homePage = {
 };
 
 export const homeEvent = {
-  "eyebrow": "Events & private hire at La Petite Garoupe",
+  "eyebrow": "Events & private hire",
   "title": "Make La Petite Garoupe yours.",
   "text": "Weddings, birthdays, baptisms, group meals, or professional events: La Petite Garoupe welcomes your private moments in a rare setting, between beach, Mediterranean, and Riviera spirit. Our team helps you imagine an event that feels personal, simple, elegant, and memorable.",
   "tags": [

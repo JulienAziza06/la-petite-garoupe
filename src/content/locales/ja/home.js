@@ -29,7 +29,7 @@ export const homePage = {
 };
 
 export const homeEvent = {
-  "eyebrow": "La Petite Garoupe のイベント・貸切",
+  "eyebrow": "イベント・貸切",
   "title": "La Petite Garoupe を貸切で。",
   "text": "ウェディング、誕生日、洗礼式、団体でのお食事、企業イベントまで。La Petite Garoupe は、ビーチ、地中海、リヴィエラらしさに包まれた特別な場所で、大切な時間をお迎えします。私たちのチームが、パーソナルで、シンプルで、上品で、記憶に残るイベントづくりをお手伝いします。",
   "tags": [

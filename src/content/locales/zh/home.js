@@ -29,7 +29,7 @@ export const homePage = {
 };
 
 export const homeEvent = {
-  "eyebrow": "La Petite Garoupe 的活动与包场",
+  "eyebrow": "活动与包场",
   "title": "包场 La Petite Garoupe。",
   "text": "婚礼、生日、洗礼、团体聚餐或商务活动：La Petite Garoupe 在海滩、地中海与 Riviera 精神之间，为您的私人时刻提供难得的场地。我们的团队将陪您打造专属、简洁、优雅而难忘的活动。",
   "tags": [
