@@ -11,6 +11,7 @@ import cuisineTopRight from './assets/images/home/cuisine-top-right.webp';
 import heroCover from './assets/images/home/hero-cover.webp';
 import heroTerrace from './assets/images/home/hero-terrace.webp';
 import privateEvents from './assets/images/home/private-events.webp';
+import privateEventsMobile from './assets/images/home/private-events-mobile.webp';
 
 export const siteMedia = {
   heroCover,
@@ -26,4 +27,5 @@ export const siteMedia = {
   ambiancePizza,
   access,
   privateEvents,
+  privateEventsMobile,
 };

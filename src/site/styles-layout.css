@@ -623,12 +623,22 @@
   justify-self: end;
 }
 
+.v6-shell .v6-events__image picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .v6-shell .v6-events__image img {
   width: 100%;
   height: 100%;
   min-height: 40rem;
   object-fit: cover;
   display: block;
+}
+
+.v6-shell .v6-contact-media-mobile {
+  display: none;
 }
 
 @media (min-width: 901px) {
@@ -2081,12 +2091,26 @@
   .v6-shell .v6-events__image img {
     height: auto;
     min-height: 0;
-    aspect-ratio: 2 / 1;
+    aspect-ratio: 16 / 9;
   }
 
   .v6-shell .v6-events__image {
     max-width: none;
     justify-self: stretch;
+  }
+
+  .v6-shell .v6-contact-media-mobile {
+    display: block;
+    width: 100%;
+    margin: 1.6rem 0 1.4rem;
+  }
+
+  .v6-shell .v6-contact-media-mobile img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    display: block;
   }
 }
 

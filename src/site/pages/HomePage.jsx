@@ -21,6 +21,7 @@ export function HomePage() {
   const contact = pages.contact;
   const events = homeEventContent[lang] ?? homeEventContent.en;
   const contactHours = contact.hours ?? [];
+  const contactHoursSummary = contact.hoursSummary;
   const seoHeading = home.hero?.seoHeading ?? home.hero?.title;
   const storyTitle = home.story?.title ?? home.story?.titleLines?.join(' ');
   const storyText = home.story?.text ?? home.story?.paragraphs?.join(' ');
@@ -154,12 +155,15 @@ export function HomePage() {
           </div>
 
           <figure className="v3-feature-image v6-events__image">
-            <img
-              src={siteMedia.privateEvents}
-              alt={events.imageAlt}
-              loading="lazy"
-              decoding="async"
-            />
+            <picture>
+              <source media="(max-width: 640px)" srcSet={siteMedia.privateEventsMobile} />
+              <img
+                src={siteMedia.privateEvents}
+                alt={events.imageAlt}
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </figure>
         </div>
       </section>
@@ -175,19 +179,27 @@ export function HomePage() {
 
               <div>
                 <h2>{contact.hoursTitle}</h2>
-                <div className="v3-hours">
-                  {contactHours.map((slot) => (
-                    <div key={slot.day}>
-                      <span>{slot.day}</span>
-                      <strong>{slot.hours}</strong>
-                    </div>
-                  ))}
-                </div>
+                {contactHoursSummary ? (
+                  <p className="v6-hours-summary">{contactHoursSummary}</p>
+                ) : (
+                  <div className="v3-hours">
+                    {contactHours.map((slot) => (
+                      <div key={slot.day}>
+                        <span>{slot.day}</span>
+                        <strong>{slot.hours}</strong>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
 
               <div>
                 <h2>{contact.accessTitle}</h2>
                 <p>{contact.accessText}</p>
+
+                <figure className="v3-feature-image v6-contact-media-mobile">
+                  <img src={siteMedia.access} alt="" loading="lazy" decoding="async" />
+                </figure>
 
                 <div className="v3-button-row v6-access-actions">
                   <ReserveDropdown locale={locale} buttonClassName="v6-access-button v6-access-button--reserve" />

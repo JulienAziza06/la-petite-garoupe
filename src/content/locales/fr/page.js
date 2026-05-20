@@ -3,6 +3,7 @@ export const page = {
     "addressTitle": "Adresse",
     "addressValue": "991 Chem. de la Garoupe, 06160 Antibes, France",
     "hoursTitle": "Horaires",
+    "hoursSummary": "Du Lundi au Dimanche de 8h à 00h30",
     "hours": [
       {
         "day": "Lundi",
