@@ -6,26 +6,20 @@ export const homePage = {
     "text": "Zonnige keuken,\nvoeten in het zand,\nuitzicht op de Middellandse Zee."
   },
   "cuisine": {
-    "eyebrow": "De kunst op onze borden",
-    "title": "Een keuken geworteld in de kunst van gastvrijheid",
-    "text": "Bij La Petite Garoupe is eten een moment om te delen: traditionele recepten met een gulle toets, langzaam bereide gerechten, grillgerechten en houtovenspecialiteiten die het Zuiden en gezelligheid oproepen."
+    "eyebrow": "De plek",
+    "title": "Een verstild moment in Cap d’Antibes.",
+    "text": "Gelegen aan Plage de la Garoupe, in het hart van Cap d’Antibes, is La Petite Garoupe zo’n adres dat je bijna voor jezelf wilt houden. Onder de parasols, met uitzicht op zee, geniet je van een moment tussen terras, zon en Middellandse Zee."
   },
   "story": {
-    "eyebrow": "De chef",
-    "titleLines": [
-      "Achter La Petite Garoupe zit een visie…",
-      "maar ook een chef."
-    ],
-    "paragraphs": [
-      "Francesco Sita', afkomstig uit Milaan, bouwde zijn parcours op tussen Italië en Frankrijk, met passages in gerenommeerde huizen zoals Plaza Athénée in Parijs, Cap Horn in Chamonix en Plage Keller in Cap d’Antibes.",
-      "Uiteenlopende ervaringen, tussen zee en gastronomie, die vandaag een keuken vormgeven die precies, oprecht en geïnspireerd is."
-    ],
-    "imageAlt": "Portret van chef Francesco Sita'"
+    "eyebrow": "De keuken",
+    "title": "De Middellandse Zee op het bord.",
+    "text": "De kaart viert de mediterrane geest: verse producten, gerechten om te delen, lokale inspiratie en Italiaanse toetsen. Een verfijnde, royale en zonnige keuken voor lange tafels, lunches in de zon en avonden met uitzicht op zee.",
+    "imageAlt": "Mediterrane keuken bij La Petite Garoupe"
   },
   "ambiance": {
     "eyebrow": "Sfeer",
-    "title": "Een plek van leven en plezier",
-    "text": "Mensen komen net zo goed naar La Petite Garoupe voor de sfeer als voor de keuken. De plek nodigt uit om te ontspannen, tussen de warmte van de houtoven, een gezellige sfeer en een mediterrane geest."
+    "title": "Een levendig strand, van ochtend tot avond.",
+    "text": "Van ochtend tot avond cultiveert La Petite Garoupe een warme en levendige sfeer. Je komt er voor koffie, een lunch in de zon, een glas dat wat langer duurt, of een avond met muziek, artiesten en onverwachte momenten."
   },
   "access": {
     "eyebrow": "Contact & bereikbaarheid",
@@ -36,10 +30,11 @@ export const homePage = {
 
 export const homeEvent = {
   "eyebrow": "Evenementen en privatisaties bij La Petite Garoupe",
-  "title": "Privatiseer de plek voor uw evenementen",
-  "text": "La Petite Garoupe begeleidt al uw bijzondere momenten, van huwelijken en verjaardagen tot groepsmaaltijden. In een warme en gezellige sfeer creëren we maatwerk rond een gulle keuken en de kunst van gastvrij ontvangen.",
+  "title": "Privatiseer La Petite Garoupe.",
+  "text": "Bruiloft, verjaardag, doop, groepsmaaltijd of professioneel evenement: La Petite Garoupe ontvangt uw privémomenten in een zeldzaam kader, tussen strand, Middellandse Zee en Riviera-geest. Ons team helpt u een persoonlijk, eenvoudig, elegant en memorabel evenement vorm te geven.",
   "tags": [
     "Bruiloften",
+    "Dopen",
     "Verjaardagen",
     "Groepsmaaltijden"
   ],

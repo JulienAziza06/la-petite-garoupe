@@ -76,12 +76,6 @@ export function HomePage() {
             <span className="v3-kicker">{home.cuisine.eyebrow}</span>
             <h2>{home.cuisine.title}</h2>
             <p>{home.cuisine.text}</p>
-            <div className="v6-copy-followup">
-              <Link className="v3-button v6-cuisine-menu-button" to={buildLocalizedPath('menu')}>
-                <CutleryIcon />
-                {locale.actions.menu}
-              </Link>
-            </div>
           </div>
 
           <div className="v5-cuisine__grid">

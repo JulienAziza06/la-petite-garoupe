@@ -6,26 +6,20 @@ export const homePage = {
     "text": "Sun-kissed cuisine,\nfeet in the sand,\nfacing the Mediterranean."
   },
   "cuisine": {
-    "eyebrow": "The art on our plates",
-    "title": "A cuisine rooted in the art of hospitality",
-    "text": "At La Petite Garoupe, food is made for sharing: generous takes on traditional recipes, slow-cooked dishes, grilled classics, and wood-fired specialties filled with the warmth and convivial spirit of the South."
+    "eyebrow": "The place",
+    "title": "A suspended moment in Cap d’Antibes.",
+    "text": "Set on Plage de la Garoupe, in the heart of Cap d’Antibes, La Petite Garoupe is one of those addresses you almost want to keep to yourself. Under the parasols, facing the sea, come for a suspended moment between terrace, sun, and Mediterranean."
   },
   "story": {
-    "eyebrow": "The chef",
-    "titleLines": [
-      "Behind La Petite Garoupe, there is a vision…",
-      "and a chef behind it too."
-    ],
-    "paragraphs": [
-      "Originally from Milan, Francesco Sita' built his path between Italy and France, working in renowned houses such as Plaza Athénée in Paris, Cap Horn in Chamonix, and Plage Keller in Cap d’Antibes.",
-      "These varied experiences, between the sea and gastronomy, now shape a cuisine that is precise, sincere, and inspired."
-    ],
-    "imageAlt": "Portrait of chef Francesco Sita'"
+    "eyebrow": "Cuisine",
+    "title": "The Mediterranean on the plate.",
+    "text": "The menu celebrates the Mediterranean spirit: fresh produce, sharing plates, local inspirations, and Italian touches. A refined, generous, sun-filled cuisine designed for long tables, lunches in the sun, and evenings facing the sea.",
+    "imageAlt": "Mediterranean cuisine at La Petite Garoupe"
   },
   "ambiance": {
     "eyebrow": "Atmosphere",
-    "title": "A place to gather and enjoy",
-    "text": "People come to La Petite Garoupe as much for the atmosphere as for the food. The setting invites you to slow down, with the warmth of the wood oven, a convivial spirit, and a Mediterranean feel that turns each visit into a lively, simple, and delicious moment."
+    "title": "A lively beach, from morning to evening.",
+    "text": "From morning to evening, La Petite Garoupe cultivates a warm and lively atmosphere. Come for coffee, a lunch in the sun, a lingering drink, or a more animated evening carried by music, artists, and unexpected moments that bring the beach to life."
   },
   "access": {
     "eyebrow": "Contact & access",
@@ -36,10 +30,11 @@ export const homePage = {
 
 export const homeEvent = {
   "eyebrow": "Events & private hire at La Petite Garoupe",
-  "title": "Host your events with us",
-  "text": "La Petite Garoupe can host your special occasions, from weddings and birthdays to group meals. In a warm and welcoming setting, we create tailored moments built around generous cooking and the art of hospitality.",
+  "title": "Make La Petite Garoupe yours.",
+  "text": "Weddings, birthdays, baptisms, group meals, or professional events: La Petite Garoupe welcomes your private moments in a rare setting, between beach, Mediterranean, and Riviera spirit. Our team helps you imagine an event that feels personal, simple, elegant, and memorable.",
   "tags": [
     "Weddings",
+    "Baptisms",
     "Birthdays",
     "Group meals"
   ],

@@ -6,26 +6,20 @@ export const homePage = {
     "text": "Une cuisine ensoleillée,\nles pieds dans le sable,\nface à la Méditerranée."
   },
   "cuisine": {
-    "eyebrow": "L’art dans nos assiettes",
-    "title": "Une cuisine ancrée dans l’art de recevoir",
-    "text": "À La Petite Garoupe, la cuisine est un moment de partage : des recettes traditionnelles revisitées avec générosité, des plats mijotés, des grillades et des spécialités au feu de bois qui sentent bon le Sud et la convivialité."
+    "eyebrow": "Le lieu",
+    "title": "Un moment suspendu au Cap d’Antibes.",
+    "text": "Installée sur la plage de la Garoupe, au coeur du Cap d’Antibes, La Petite Garoupe fait partie de ces adresses que l’on aimerait garder pour soi. Sous les parasols, face à la mer, on vient profiter d’un moment suspendu entre terrasse, soleil et Méditerranée."
   },
   "story": {
-    "eyebrow": "Le chef",
-    "titleLines": [
-      "Derrière La Petite Garoupe, il y a une vision…",
-      "mais aussi, un chef."
-    ],
-    "paragraphs": [
-      "Francesco Sita', originaire de Milan, construit son parcours entre l’Italie et la France, en passant par des maisons reconnues comme le Plaza Athénée à Paris, le Cap Horn à Chamonix, ou encore la Plage Keller au Cap d’Antibes.",
-      "Des expériences variées, entre mer et gastronomie, qui façonnent aujourd’hui une cuisine précise, sincère et inspirée."
-    ],
-    "imageAlt": "Portrait de Francesco Sita'"
+    "eyebrow": "La cuisine",
+    "title": "La Méditerranée dans l’assiette.",
+    "text": "La carte célèbre l’esprit méditerranéen : produits frais, assiettes à partager, inspirations locales et touches italiennes. Une cuisine raffinée, généreuse et solaire, pensée pour accompagner les longues tablées, les déjeuners au soleil et les soirées face à la mer.",
+    "imageAlt": "Cuisine méditerranéenne à La Petite Garoupe"
   },
   "ambiance": {
     "eyebrow": "Ambiance",
-    "title": "Un lieu de Vie et de Plaisir",
-    "text": "À La Petite Garoupe, on vient autant pour l’ambiance que pour la cuisine. Le lieu invite à la détente, entre chaleur du feu de bois, convivialité et esprit méditerranéen, pour partager un moment simple, vivant et gourmand."
+    "title": "Une plage vivante, du matin jusqu’au soir.",
+    "text": "Du matin jusqu’au soir, La Petite Garoupe cultive une atmosphère vivante et chaleureuse. On s’y retrouve pour un café, un déjeuner au soleil, un verre qui s’étire, ou une soirée plus animée, portée par la musique, les artistes et les instants inattendus qui font vivre la plage autrement."
   },
   "access": {
     "eyebrow": "Contact & accès",
@@ -36,10 +30,11 @@ export const homePage = {
 
 export const homeEvent = {
   "eyebrow": "Événements & Privatisations à La Petite Garoupe",
-  "title": "Privatisez pour vos événements !",
-  "text": "La Petite Garoupe vous accompagne dans tous vos moments précieux, qu’il s’agisse de mariages, anniversaires ou repas de groupe. Dans une ambiance chaleureuse et conviviale, nous créons des expériences sur mesure, alliant cuisine généreuse et art de recevoir pour faire de chaque événement un souvenir inoubliable.",
+  "title": "Privatisez La Petite Garoupe.",
+  "text": "Mariage, anniversaire, baptême, repas de groupe ou événement professionnel : La Petite Garoupe accueille vos moments privés dans un cadre rare, entre plage, Méditerranée et esprit Riviera. Notre équipe vous accompagne pour imaginer un événement à votre image, simple, élégant et mémorable.",
   "tags": [
     "Mariages",
+    "Baptêmes",
     "Anniversaires",
     "Repas de groupe"
   ],

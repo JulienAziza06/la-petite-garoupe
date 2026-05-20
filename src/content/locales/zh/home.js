@@ -6,26 +6,20 @@ export const homePage = {
     "text": "阳光下的料理，\n双脚踏在沙滩上，\n面朝地中海。"
   },
   "cuisine": {
-    "eyebrow": "盘中的艺术",
-    "title": "植根于待客之道的料理",
-    "text": "在 La Petite Garoupe，用餐首先是分享的时刻：经过丰盛演绎的传统食谱、慢炖菜、烤制料理，以及带着南法气息与欢聚氛围的柴火特色菜。"
+    "eyebrow": "地点",
+    "title": "在 Cap d’Antibes 的悬停时刻。",
+    "text": "La Petite Garoupe 位于 Cap d’Antibes 中心的 Plage de la Garoupe，是那种让人想私藏的地址。阳伞下，面向大海，在露台、阳光与地中海之间，享受一段像被暂停的时光。"
   },
   "story": {
-    "eyebrow": "主厨",
-    "titleLines": [
-      "La Petite Garoupe 背后，有一种理念…",
-      "也有一位主厨。"
-    ],
-    "paragraphs": [
-      "Francesco Sita' 来自米兰，他的职业道路横跨意大利与法国，曾在巴黎的 Plaza Athénée、霞慕尼的 Cap Horn，以及昂蒂布角的 Plage Keller 等知名餐厅历练。",
-      "这些介于海洋与美食之间的多样经历，如今塑造出一种精准、真诚而富有灵感的料理风格。"
-    ],
-    "imageAlt": "主厨 Francesco Sita' 的肖像"
+    "eyebrow": "料理",
+    "title": "餐盘里的地中海。",
+    "text": "菜单呈现地中海精神：新鲜食材、适合分享的菜肴、在地灵感与意式风味。精致、丰盛而充满阳光感的料理，适合长桌午餐、阳光下的相聚，以及面朝大海的夜晚。",
+    "imageAlt": "La Petite Garoupe 的地中海料理"
   },
   "ambiance": {
     "eyebrow": "氛围",
-    "title": "一个适合相聚与享受的地方",
-    "text": "人们来到 La Petite Garoupe，不只是为了吃饭，也为了这里的氛围。木火炉的温度、轻松友好的感觉和地中海气息，让每一次到访都变得简单、生动而愉快。"
+    "title": "从清晨到夜晚都鲜活的海滩。",
+    "text": "从清晨到夜晚，La Petite Garoupe 保持着温暖而鲜活的氛围。可以来喝一杯咖啡，享受阳光午餐，慢慢延长一杯酒的时间，或在音乐、艺术家与意外惊喜中迎来更热闹的夜晚。"
   },
   "access": {
     "eyebrow": "联系与到达方式",
@@ -36,10 +30,11 @@ export const homePage = {
 
 export const homeEvent = {
   "eyebrow": "La Petite Garoupe 的活动与包场",
-  "title": "欢迎在这里举办您的活动",
-  "text": "无论是婚礼、生日还是团体聚餐，La Petite Garoupe 都能陪伴您的重要时刻。在温暖而友好的氛围中，我们以丰盛料理和待客之道打造专属体验。",
+  "title": "包场 La Petite Garoupe。",
+  "text": "婚礼、生日、洗礼、团体聚餐或商务活动：La Petite Garoupe 在海滩、地中海与 Riviera 精神之间，为您的私人时刻提供难得的场地。我们的团队将陪您打造专属、简洁、优雅而难忘的活动。",
   "tags": [
     "婚礼",
+    "洗礼",
     "生日",
     "团体聚餐"
   ],
